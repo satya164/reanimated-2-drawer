@@ -1,0 +1,40 @@
+{
+  "name": "reanimated-2-drawer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "expo-asset": "^8.2.0",
+    "react": "16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native": "0.63.1",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-reanimated": "2.0.0-rc.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@types/react": "^17.0.0",
+    "@types/react-native": "^0.63.37",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.15.0",
+    "eslint-config-satya164": "^3.1.8",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.64.0",
+    "prettier": "^2.2.1",
+    "react-test-renderer": "16.13.1",
+    "typescript": "^4.1.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "eslintConfig": {
+    "extends": "satya164"
+  }
+}
